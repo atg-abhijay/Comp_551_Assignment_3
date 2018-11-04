@@ -1,2 +1,2 @@
-Yelp Random Classifier F1 Score: 0.19023213670095687
+Yelp Random Classifier F1 Score: 0.202
 Yelp Majority Classifier F1 Score: 0.351

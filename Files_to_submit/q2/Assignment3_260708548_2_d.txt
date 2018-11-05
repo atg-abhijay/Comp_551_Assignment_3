@@ -3,4 +3,4 @@ Bernoulli Naive Bayes:-
 Yelp Binary BoW BernoulliNB Train F1 Score: 0.7315714285714285
 Yelp Binary BoW BernoulliNB Valid F1 Score: 0.417
 Yelp Binary BoW BernoulliNB Test F1 Score: 0.436
-Best Binary BoW BernoulliNB Alpha Value:  0.02
+Yelp Best Binary BoW BernoulliNB Alpha Value:  0.02

@@ -7,3 +7,24 @@ IMDB Best Binary BoW BernoulliNB Alpha Value:  0.02
 
 #########################################################
 
+Decision Trees:-
+
+IMDB Binary BoW Decision Trees Train F1 Score: 0.7298000000000001
+IMDB Binary BoW Decision Trees Valid F1 Score: 0.7211
+IMDB Binary BoW Decision Trees Test F1 Score: 0.73124
+IMDB Best Binary BoW Decision Trees Parameters:
+{'max_depth': 12,
+'min_samples_split': 400,
+'min_samples_leaf': 100,
+'max_features': 8000}
+
+#########################################################
+
+Linear SVM:-
+
+IMDB Binary BoW Linear SVM Train F1 Score: 1.0
+IMDB Binary BoW Linear SVM Valid F1 Score: 0.838
+IMDB Binary BoW Linear SVM Test F1 Score: 0.83168
+IMDB Best Binary BoW Linear SVM Parameters:
+{'tol': 0.0001,
+'C': 2}

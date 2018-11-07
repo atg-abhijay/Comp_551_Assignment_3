@@ -1,3 +1,12 @@
+Gaussian Naive Bayes:-
+
+Yelp Frequency BoW GaussianNB Train F1 Score: 0.3475714285714286
+Yelp Frequency BoW GaussianNB Valid F1 Score: 0.343
+Yelp Frequency BoW GaussianNB Test F1 Score: 0.3245
+Yelp Best Frequency BoW GaussianNB Smooth Value:  1
+
+#########################################################
+
 Decision Trees:-
 
 Yelp Frequency BoW Decision Trees Train F1 Score: 0.43857142857142856

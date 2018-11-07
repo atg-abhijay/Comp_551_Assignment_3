@@ -1,3 +1,17 @@
+Gaussian Naive Bayes:-
+
+Hyperparameters -
+1. var_smoothing (Portion of the largest variance of all features that is added to variances for calculation stability)
+
+Range of Hyperparameters -
+1. var_smoothing
+[1, 0.1, 0.01, 0.001, 0.0001, 1e-05, 1e-06, 1e-07, 1e-08, 1e-09, 1e-10]
+
+Best values of Hyperparameters -
+1. var_smoothing = 1
+
+#########################################################
+
 Frequency BoW Decision Trees:-
 
 Hyperparameters -

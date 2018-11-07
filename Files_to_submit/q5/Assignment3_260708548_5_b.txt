@@ -1,0 +1,49 @@
+Gaussian Naive Bayes:-
+
+Hyperparameters -
+1. var_smoothing (Portion of the largest variance of all features that is added to variances for calculation stability)
+
+Range of Hyperparameters -
+1. var_smoothing
+[1, 0.1, 0.01, 0.001, 0.0001, 1e-05, 1e-06, 1e-07, 1e-08, 1e-09, 1e-10]
+
+Best values of Hyperparameters -
+1. var_smoothing = 0.0001
+
+#########################################################
+
+Frequency BoW Decision Trees:-
+
+Hyperparameters -
+1. max_depth
+2. min_samples_split
+3. min_samples_leaf
+4. max_features
+
+Range of Hyperparameters -
+1. max_depth:           [12, 8]
+2. min_samples_split:   [400, 100]
+3. min_samples_leaf:    [400, 100]
+4. max_features:        [10000, 8000]
+
+Best values of Hyperparameters -
+{'max_depth': 12,
+'min_samples_split': 400,
+'min_samples_leaf': 100,
+'max_features': 10000}
+
+#########################################################
+
+Frequency BoW Linear SVM:-
+
+Hyperparameters -
+1. C (penalty parameter)
+2. tol (tolerance)
+
+Range of Hyperparameters -
+1. C:       [2*i for i in range(1, 5)] = [2, 4, 6, 8]
+2. tol:     [10**(-i*2) for i in range(1, 4)] = [10^(-2), 10^(-4), 10^(-6)]
+
+Best values of Hyperparameters -
+{'tol': 0.01,
+'C': 8}

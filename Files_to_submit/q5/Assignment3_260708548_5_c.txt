@@ -1,13 +1,30 @@
 Gaussian Naive Bayes:-
 
-
+IMDB Frequency BoW GaussianNB Train F1 Score: 0.8518666666666668
+IMDB Frequency BoW GaussianNB Valid F1 Score: 0.7787000000000001
+IMDB Frequency BoW GaussianNB Test F1 Score: 0.7116799999999999
+IMDB Best Frequency BoW GaussianNB Smooth Value:  0.0001
 
 #########################################################
 
 Decision Trees:-
 
-
+IMDB Frequency BoW Decision Trees Train F1 Score: 0.7385333333333335
+IMDB Frequency BoW Decision Trees Valid F1 Score: 0.7162
+IMDB Frequency BoW Decision Trees Test F1 Score: 0.7216
+IMDB Best Frequency BoW Decision Trees Parameters:
+{'max_depth': 12,
+'min_samples_split': 400,
+'min_samples_leaf': 100,
+'max_features': 10000}
 
 #########################################################
 
 Linear SVM:-
+
+IMDB Frequency BoW Linear SVM Train F1 Score: 0.8848666666666667
+IMDB Frequency BoW Linear SVM Valid F1 Score: 0.8556
+IMDB Frequency BoW Linear SVM Test F1 Score: 0.85648
+IMDB Best Frequency BoW Linear SVM Parameters:
+{'tol': 0.01,
+'C': 8}

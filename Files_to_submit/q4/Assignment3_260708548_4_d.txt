@@ -1,0 +1,9 @@
+Bernoulli Naive Bayes:-
+
+IMDB Binary BoW BernoulliNB Train F1 Score: 0.8732666666666666
+IMDB Binary BoW BernoulliNB Valid F1 Score: 0.8443
+IMDB Binary BoW BernoulliNB Test F1 Score: 0.83404
+IMDB Best Binary BoW BernoulliNB Alpha Value:  0.02
+
+#########################################################
+

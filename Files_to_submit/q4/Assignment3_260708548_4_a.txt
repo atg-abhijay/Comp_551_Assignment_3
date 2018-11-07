@@ -1,0 +1,1 @@
+IMDB Random Classifier F1 Score: 0.49796

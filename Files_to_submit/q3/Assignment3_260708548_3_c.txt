@@ -8,3 +8,14 @@ Yelp Best Frequency BoW Decision Trees Parameters:
 'min_samples_split': 400,
 'min_samples_leaf': 100,
 'max_features': 10000}
+
+#########################################################
+
+Linear SVM:-
+
+Yelp Frequency BoW Linear SVM Train F1 Score: 0.6747142857142857
+Yelp Frequency BoW Linear SVM Valid F1 Score: 0.491
+Yelp Frequency BoW Linear SVM Test F1 Score: 0.5135
+Yelp Best Frequency BoW Linear SVM Parameters:
+{'tol': 0.0001,
+'C': 10}

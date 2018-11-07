@@ -4,3 +4,19 @@ Yelp Binary BoW BernoulliNB Train F1 Score: 0.7315714285714285
 Yelp Binary BoW BernoulliNB Valid F1 Score: 0.417
 Yelp Binary BoW BernoulliNB Test F1 Score: 0.436
 Yelp Best Binary BoW BernoulliNB Alpha Value:  0.02
+
+
+Decision Trees:-
+
+Yelp Binary BoW Decision Trees Train F1 Score: 0.4277142857142857
+Yelp Binary BoW Decision Trees Valid F1 Score: 0.38499999999999995
+Yelp Binary BoW Decision Trees Test F1 Score: 0.425
+Yelp Best Binary BoW Decision Trees Parameters:
+{'max_depth': 10,
+'min_samples_split': 400,
+'min_samples_leaf': 100,
+'max_features': 4000}
+
+
+Linear SVM:-
+

@@ -1,0 +1,10 @@
+Decision Trees:-
+
+Yelp Frequency BoW Decision Trees Train F1 Score: 0.43857142857142856
+Yelp Frequency BoW Decision Trees Valid F1 Score: 0.401
+Yelp Frequency BoW Decision Trees Test F1 Score: 0.4195
+Yelp Best Frequency BoW Decision Trees Parameters:
+{'max_depth': 8,
+'min_samples_split': 400,
+'min_samples_leaf': 100,
+'max_features': 10000}

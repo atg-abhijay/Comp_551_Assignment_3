@@ -13,3 +13,28 @@ Range of Hyperparameters -
 
 Best value of Hyperparameters -
 1. Alpha = 0.02
+
+
+Binary BoW Decision Trees:-
+
+Hyperparameters-
+1. max_depth
+2. min_samples_split
+3. min_samples_leaf
+4. max_features
+
+Range of Hyperparameters -
+1. max_depth:           [10, 8, 6, 4]
+2. min_samples_split:   [400, 200, 100]
+3. min_samples_leaf:    [400, 200, 100]
+4. max_features:        [10000, 8000, 4000]
+
+Best values of Hyperparameters -
+{'max_depth': 10,
+'min_samples_split': 400,
+'min_samples_leaf': 100,
+'max_features': 4000}
+
+
+Binary Bow Linear SVM:-
+
